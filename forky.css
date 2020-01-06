@@ -141,3 +141,24 @@ body {
   clip-path: polygon(0 54%, 100% 39%, 99% 100%, 0 100%);
   transform: rotate(196deg);
 }
+
+.brow-mask1 {
+  width: 28px;
+  height: 23px;
+  background: #d70000;
+  border-radius: 50%;
+  position: absolute;
+  top: -84px;
+  left: -88px;
+}
+
+.brow-mask2 {
+  width: 27px;
+  height: 17px;
+  background: #d70000;
+  border-radius: 50%;
+  position: absolute;
+  top: -46px;
+  left: 75px;
+  transform: rotate(13deg);
+}
