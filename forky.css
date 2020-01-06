@@ -106,3 +106,28 @@ body {
   left: 10px;
   box-shadow: 1px 1px 1px #888787;
 }
+
+.mouth1 {
+  width: 120px;
+  height:
+    81px;
+  border: 15px solid #71acc8;
+  position: absolute;
+  top: 46px;
+  left: -60px;
+
+  border-radius: 42% 17% 70% 44% / 32% 26% 80% 73%;
+  clip-path: polygon(0 33%, 100% 11%, 99% 100%, 0% 100%);
+
+}
+
+.mouth2 {
+  width: 144px;
+  height: 81px;
+  border: 15px solid #71acc8;
+  position: absolute;
+  top: -6px;
+  left: -78px;
+  clip-path: polygon(0 83%, 100% 56%, 99% 100%, 0 100%);
+  border-radius: 42% 17% 70% 44% / 32% 26% 80% 73%;
+}
