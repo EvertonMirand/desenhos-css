@@ -115,10 +115,8 @@ body {
   position: absolute;
   top: 46px;
   left: -60px;
-
   border-radius: 42% 17% 70% 44% / 32% 26% 80% 73%;
   clip-path: polygon(0 33%, 100% 11%, 99% 100%, 0% 100%);
-
 }
 
 .mouth2 {
@@ -130,4 +128,16 @@ body {
   left: -78px;
   clip-path: polygon(0 83%, 100% 56%, 99% 100%, 0 100%);
   border-radius: 42% 17% 70% 44% / 32% 26% 80% 73%;
+}
+
+.brow {
+  width: 150px;
+  height: 51px;
+  border: 25px solid #d70000;
+  border-radius: 32% 43% 39% 52% / 28% 21% 86% 72%;
+  position: absolute;
+  top: -107px;
+  left: -91px;
+  clip-path: polygon(0 54%, 100% 39%, 99% 100%, 0 100%);
+  transform: rotate(196deg);
 }
