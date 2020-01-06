@@ -29,6 +29,7 @@ body {
   width: 200px;
   border-radius: 50%;
   background: rgb(46, 17, 2);
+  z-index: 2;
 }
 
 .eye.right {
@@ -88,4 +89,32 @@ body {
 .head .snout .mouth.right {
   left: 19px;
   transform: rotateY(180deg);
+}
+
+.ear {
+  background: rgb(46, 17, 2);
+  height: 90px;
+  width: 60px;
+  border-radius: 50%;
+  top: -40px;
+  left: -10px;
+  transform: skewX(40deg);
+  z-index: -1;
+
+}
+
+.ear .inner {
+  background: rgb(226, 92, 74);
+  height: 30px;
+  width: 30px;
+  left: 15px;
+  top: 37px;
+
+  border-radius: 50%;
+
+  position: absolute;
+}
+
+.ear.right {
+  transform: translateX(160px) skewX(140deg);
 }
